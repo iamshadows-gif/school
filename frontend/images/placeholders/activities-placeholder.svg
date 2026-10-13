@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Placeholder illustration for a future photograph of school activities</title>
+  <rect width="800" height="600" fill="#FFF9EF"/>
+  <circle cx="200" cy="230" r="90" fill="#F6C544"/>
+  <circle cx="420" cy="200" r="70" fill="#E07A3F" fill-opacity="0.85"/>
+  <circle cx="600" cy="260" r="95" fill="#6A9A5B" fill-opacity="0.85"/>
+  <path d="M120 430 Q400 360 680 430 L680 470 Q400 400 120 470 Z" fill="#FDF1C7"/>
+  <rect x="180" y="330" width="440" height="150" rx="18" fill="#FFFFFF" stroke="#E8DFCC" stroke-width="3"/>
+  <path d="M250 440 L330 360 L400 420 L470 370 L550 440 Z" fill="#6A9A5B" fill-opacity="0.35"/>
+  <rect x="120" y="500" width="560" height="40" rx="20" fill="#1F2A44" fill-opacity="0.08"/>
+  <text x="400" y="526" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#4A5468">PLACEHOLDER: replace with a real activities photograph</text>
+</svg>

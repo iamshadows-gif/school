@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-labelledby="title">
+  <title id="title">Illustration: celebrations and special days</title>
+  <rect width="240" height="180" rx="16" fill="#FFF9EF" stroke="#E8DFCC" stroke-width="2"/>
+  <ellipse cx="90" cy="62" rx="26" ry="32" fill="#E07A3F"/>
+  <ellipse cx="150" cy="56" rx="26" ry="32" fill="#F6C544"/>
+  <ellipse cx="185" cy="98" rx="22" ry="28" fill="#6A9A5B"/>
+  <path d="M90 94 Q84 120 96 150" fill="none" stroke="#1F2A44" stroke-opacity="0.4" stroke-width="2"/>
+  <path d="M150 88 Q156 118 146 150" fill="none" stroke="#1F2A44" stroke-opacity="0.4" stroke-width="2"/>
+  <path d="M30 40 L36 52 L50 54 L40 63 L43 77 L30 70 L17 77 L20 63 L10 54 L24 52 Z" fill="#F6C544"/>
+  <path d="M210 150 L216 162 L230 164 L220 173 L223 180 L210 174 L197 180 L200 173 L190 164 L204 162 Z" fill="#E07A3F" fill-opacity="0.8"/>
+  <rect x="30" y="150" width="60" height="8" rx="4" fill="#1F2A44" fill-opacity="0.15"/>
+</svg>

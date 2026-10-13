@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-labelledby="title">
+  <title id="title">Illustration: music and movement</title>
+  <rect width="240" height="180" rx="16" fill="#FBE3D3"/>
+  <path d="M96 128 V48 L172 32 V112" fill="none" stroke="#1F2A44" stroke-width="6" stroke-linejoin="round"/>
+  <ellipse cx="82" cy="130" rx="18" ry="14" fill="#E07A3F"/>
+  <ellipse cx="158" cy="114" rx="18" ry="14" fill="#6A9A5B"/>
+  <path d="M96 62 L172 46 V58 L96 74 Z" fill="#F6C544"/>
+  <circle cx="40" cy="50" r="7" fill="#F6C544"/>
+  <circle cx="206" cy="40" r="6" fill="#6A9A5B"/>
+  <circle cx="210" cy="140" r="8" fill="#E07A3F"/>
+  <path d="M30 150 Q40 140 50 150 T70 150" fill="none" stroke="#1F2A44" stroke-opacity="0.4" stroke-width="4" stroke-linecap="round"/>
+</svg>
