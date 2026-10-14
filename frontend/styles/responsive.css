@@ -90,11 +90,6 @@
   .site-header__inner {
     flex-wrap: nowrap;
   }
-
-  .brand__name,
-  .brand__tag {
-    white-space: nowrap;
-  }
 }
 
 /* ---------- Grids ---------- */
