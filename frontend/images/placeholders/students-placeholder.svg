@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Placeholder illustration for a future photograph of students</title>
+  <rect width="800" height="600" fill="#FDF1C7"/>
+  <circle cx="160" cy="120" r="60" fill="#FFFFFF" fill-opacity="0.6"/>
+  <circle cx="660" cy="150" r="80" fill="#FFFFFF" fill-opacity="0.5"/>
+  <circle cx="260" cy="250" r="58" fill="#8A6A4A"/>
+  <rect x="200" y="320" width="120" height="170" rx="50" fill="#E07A3F"/>
+  <circle cx="400" cy="210" r="64" fill="#A67C52"/>
+  <rect x="335" y="290" width="130" height="200" rx="55" fill="#6A9A5B"/>
+  <circle cx="550" cy="250" r="56" fill="#8A6A4A"/>
+  <rect x="495" y="320" width="110" height="170" rx="50" fill="#F6C544"/>
+  <rect x="150" y="490" width="500" height="10" rx="5" fill="#1F2A44" fill-opacity="0.1"/>
+  <rect x="120" y="520" width="560" height="40" rx="20" fill="#1F2A44" fill-opacity="0.08"/>
+  <text x="400" y="546" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#4A5468">PLACEHOLDER: replace with a real photograph of students</text>
+</svg>

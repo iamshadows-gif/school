@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Placeholder illustration for a future photograph of a school event</title>
+  <rect width="800" height="600" fill="#E3EFD9"/>
+  <path d="M0 500 Q400 430 800 500 V600 H0 Z" fill="#6A9A5B" fill-opacity="0.4"/>
+  <rect x="150" y="260" width="500" height="180" rx="14" fill="#FFFFFF" stroke="#E8DFCC" stroke-width="3"/>
+  <path d="M150 260 L400 200 L650 260 Z" fill="#F6C544"/>
+  <rect x="200" y="300" width="60" height="60" rx="8" fill="#E07A3F"/>
+  <rect x="370" y="300" width="60" height="60" rx="8" fill="#6A9A5B"/>
+  <rect x="540" y="300" width="60" height="60" rx="8" fill="#F6C544"/>
+  <path d="M120 150 L140 90 L160 150 L220 150 L170 185 L190 245 L140 210 L90 245 L110 185 L60 150 Z" fill="#E07A3F" fill-opacity="0.8"/>
+  <circle cx="680" cy="110" r="24" fill="#E07A3F" fill-opacity="0.8"/>
+  <rect x="120" y="500" width="560" height="40" rx="20" fill="#1F2A44" fill-opacity="0.08"/>
+  <text x="400" y="526" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#4A5468">PLACEHOLDER: replace with a real event photograph</text>
+</svg>

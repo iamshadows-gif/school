@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-labelledby="title">
+  <title id="title">Illustration: art and creativity</title>
+  <rect width="240" height="180" rx="16" fill="#FDF1C7"/>
+  <path d="M120 30 C60 30 40 75 45 105 C50 135 80 145 95 130 C108 117 100 100 115 98 C135 95 150 110 165 100 C190 85 185 30 120 30 Z" fill="#FFFFFF" stroke="#E8DFCC" stroke-width="3"/>
+  <circle cx="82" cy="72" r="11" fill="#E07A3F"/>
+  <circle cx="115" cy="58" r="11" fill="#F6C544"/>
+  <circle cx="152" cy="72" r="11" fill="#6A9A5B"/>
+  <circle cx="92" cy="110" r="9" fill="#1F2A44" fill-opacity="0.6"/>
+  <path d="M170 150 L200 40 L212 44 L184 152 Z" fill="#8A6A4A"/>
+  <path d="M196 38 L216 22 L220 34 L204 48 Z" fill="#E07A3F"/>
+</svg>

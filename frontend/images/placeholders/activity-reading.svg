@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-labelledby="title">
+  <title id="title">Illustration: reading and storytelling</title>
+  <rect width="240" height="180" rx="16" fill="#E3EFD9"/>
+  <path d="M120 60 C100 48 70 46 40 52 V140 C70 134 100 136 120 148 Z" fill="#FFFFFF" stroke="#E8DFCC" stroke-width="3"/>
+  <path d="M120 60 C140 48 170 46 200 52 V140 C170 134 140 136 120 148 Z" fill="#FFFFFF" stroke="#E8DFCC" stroke-width="3"/>
+  <path d="M120 60 V148" stroke="#6A9A5B" stroke-width="4"/>
+  <rect x="58" y="72" width="44" height="6" rx="3" fill="#F6C544"/>
+  <rect x="58" y="88" width="44" height="6" rx="3" fill="#F6C544"/>
+  <rect x="58" y="104" width="30" height="6" rx="3" fill="#F6C544"/>
+  <rect x="138" y="72" width="44" height="6" rx="3" fill="#E07A3F"/>
+  <rect x="138" y="88" width="44" height="6" rx="3" fill="#E07A3F"/>
+  <rect x="138" y="104" width="30" height="6" rx="3" fill="#E07A3F"/>
+  <path d="M176 22 L180 32 L191 33 L182 40 L185 51 L176 45 L167 51 L170 40 L161 33 L172 32 Z" fill="#F6C544"/>
+</svg>

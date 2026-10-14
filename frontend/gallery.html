@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery | Hello Kidz School</title>
+  <meta name="description" content="Browse the Hello Kidz School gallery by campus, classrooms, activities and events. Placeholders are shown until approved photographs are added.">
+  <link rel="icon" href="images/logoschool.PNG">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+  <script src="scripts/config.js" defer></script>
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/gallery.js" defer></script>
+  <script src="scripts/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="images/logoschool.PNG" alt="" width="52" height="52" data-logo>
+        <span class="brand__name">Hello Kidz School
+          <span class="brand__tag">Preschool to Class 5</span>
+        </span>
+      </a>
+
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+        <span class="nav-toggle__icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="nav-toggle__label">Menu</span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Main">
+        <ul class="primary-nav__list">
+          <li><a class="primary-nav__link" href="index.html">Home</a></li>
+          <li><a class="primary-nav__link" href="about.html">About Us</a></li>
+          <li><a class="primary-nav__link" href="academics.html">Academics</a></li>
+          <li><a class="primary-nav__link" href="admissions.html">Admissions</a></li>
+          <li><a class="primary-nav__link" href="activities.html">Activities</a></li>
+          <li><a class="primary-nav__link" href="gallery.html" aria-current="page">Gallery</a></li>
+          <li><a class="primary-nav__link" href="contact.html">Contact Us</a></li>
+        </ul>
+        <a class="btn btn--primary btn--small header-cta" href="admissions.html#enquiry">Enquire about admission</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="page-hero" aria-labelledby="gallery-title">
+      <div class="container">
+        <p class="page-hero__crumbs"><a href="index.html">Home</a> / Gallery</p>
+        <h1 id="gallery-title">Gallery</h1>
+        <p class="page-hero__lead">A look at everyday life at Hello Kidz School. Photographs will be added once the school has approved them.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="gallery-grid-title">
+      <div class="container">
+        <div class="notice notice--info">
+          <p><strong>All images on this page are placeholders.</strong> They are not photographs of Hello Kidz School. Real photographs will replace them only after the school has permission and any required parental consent.</p>
+        </div>
+
+        <h2 id="gallery-grid-title" class="visually-hidden">Gallery photographs</h2>
+        <div class="filter-bar" role="group" aria-label="Filter gallery by category">
+          <button type="button" class="btn btn--ghost btn--small" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="btn btn--ghost btn--small" data-filter="campus" aria-pressed="false">Campus</button>
+          <button type="button" class="btn btn--ghost btn--small" data-filter="classrooms" aria-pressed="false">Classrooms</button>
+          <button type="button" class="btn btn--ghost btn--small" data-filter="activities" aria-pressed="false">Activities</button>
+          <button type="button" class="btn btn--ghost btn--small" data-filter="events" aria-pressed="false">Events</button>
+        </div>
+        <p class="gallery-status" id="gallery-status" role="status" aria-live="polite">Showing all placeholders.</p>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item" data-gallery-item data-category="campus">
+            <img src="images/placeholders/campus-placeholder.svg" alt="Placeholder for a future campus photograph" width="800" height="600" loading="lazy">
+            <figcaption>
+              <span>Campus placeholder 1</span>
+              <span class="gallery-item__tag">Placeholder</span>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item" data-gallery-item data-category="campus">
+            <img src="images/placeholders/campus-placeholder.svg" alt="Placeholder for a future campus photograph" width="800" height="600" loading="lazy">
+            <figcaption>
+              <span>Campus placeholder 2</span>
+              <span class="gallery-item__tag">Placeholder</span>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item" data-gallery-item data-category="classrooms">
+            <img src="images/placeholders/classroom-placeholder.svg" alt="Placeholder for a future classrooms photograph" width="800" height="600" loading="lazy">
+            <figcaption>
+              <span>Classroom placeholder 1</span>
+              <span class="gallery-item__tag">Placeholder</span>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item" data-gallery-item data-category="classrooms">
+            <img src="images/placeholders/classroom-placeholder.svg" alt="Placeholder for a future classrooms photograph" width="800" height="600" loading="lazy">
+            <figcaption>
+              <span>Classroom placeholder 2</span>
+              <span class="gallery-item__tag">Placeholder</span>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item" data-gallery-item data-category="activities">
+            <img src="images/placeholders/activities-placeholder.svg" alt="Placeholder for a future activities photograph" width="800" height="600" loading="lazy">
+            <figcaption>
+              <span>Activities placeholder 1</span>
+              <span class="gallery-item__tag">Placeholder</span>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item" data-gallery-item data-category="activities">
+            <img src="images/placeholders/activities-placeholder.svg" alt="Placeholder for a future activities photograph" width="800" height="600" loading="lazy">
+            <figcaption>
+              <span>Activities placeholder 2</span>
+              <span class="gallery-item__tag">Placeholder</span>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item" data-gallery-item data-category="events">
+            <img src="images/placeholders/events-placeholder.svg" alt="Placeholder for a future events photograph" width="800" height="600" loading="lazy">
+            <figcaption>
+              <span>Events placeholder 1</span>
+              <span class="gallery-item__tag">Placeholder</span>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item" data-gallery-item data-category="events">
+            <img src="images/placeholders/events-placeholder.svg" alt="Placeholder for a future events photograph" width="800" height="600" loading="lazy">
+            <figcaption>
+              <span>Events placeholder 2</span>
+              <span class="gallery-item__tag">Placeholder</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tinted" aria-labelledby="gallery-howto-title">
+      <div class="container split">
+        <div>
+          <span class="eyebrow">For school staff</span>
+          <h2 id="gallery-howto-title">Adding real photographs later</h2>
+          <p>Each placeholder can be replaced with an approved photograph. Keep the file names and folders simple, and always write a short, accurate caption.</p>
+          <p class="form-note">Full step-by-step instructions are in <code>frontend/README.md</code>.</p>
+        </div>
+        <div class="card">
+          <h3>Before you publish a photograph</h3>
+          <ul>
+            <li>The school has approved the photograph.</li>
+            <li>Parental consent is in place for any child shown.</li>
+            <li>No name tags, addresses, or private documents are visible.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="gallery-cta-title">
+      <div class="container">
+        <div class="cta-band">
+          <h2 id="gallery-cta-title">Would you like to see the school in person?</h2>
+          <p>Contact us to ask about visiting arrangements.</p>
+          <div class="btn-row">
+            <a class="btn btn--primary" href="contact.html">Contact us</a>
+            <a class="btn btn--secondary" href="admissions.html#enquiry">Enquire about admission</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div>
+          <p class="site-footer__brand">
+            <img data-logo src="images/logoschool.PNG" alt="" width="56" height="56">
+            <span>Hello Kidz School</span>
+          </p>
+          <p>A caring school for preschool and primary students, from Preschool to Class 5.</p>
+        </div>
+
+        <nav aria-labelledby="footer-explore">
+          <h2 id="footer-explore">Explore</h2>
+          <ul class="site-footer__list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <h2>Contact</h2>
+          <ul class="site-footer__list">
+            <li><strong>Address:</strong> <span data-contact="address" class="todo">[Address to be added]</span></li>
+            <li><strong>Phone:</strong> <span data-contact="phone" class="todo">[Phone to be added]</span></li>
+            <li><strong>Email:</strong> <span data-contact="email" class="todo">[Email to be added]</span></li>
+            <li><strong>Hours:</strong> <span data-contact="openingHours" class="todo">[Opening hours to be added]</span></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Admissions</h2>
+          <p>Interested in joining us? Send an enquiry and we will guide you through the next steps.</p>
+          <p><a href="admissions.html#enquiry">Make an admission enquiry</a></p>
+        </div>
+      </div>
+
+      <div class="site-footer__bottom">
+        <p>&copy; <span id="current-year">2026</span> Hello Kidz School. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Hello Kidz School</title>
+  <meta name="description" content="Contact Hello Kidz School. Find our address, phone and email, opening hours, and send us a message.">
+  <link rel="icon" href="images/logoschool.PNG">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+  <script src="scripts/config.js" defer></script>
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/forms.js" defer></script>
+  <script src="scripts/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="images/logoschool.PNG" alt="" width="52" height="52" data-logo>
+        <span class="brand__name">Hello Kidz School
+          <span class="brand__tag">Preschool to Class 5</span>
+        </span>
+      </a>
+
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+        <span class="nav-toggle__icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="nav-toggle__label">Menu</span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Main">
+        <ul class="primary-nav__list">
+          <li><a class="primary-nav__link" href="index.html">Home</a></li>
+          <li><a class="primary-nav__link" href="about.html">About Us</a></li>
+          <li><a class="primary-nav__link" href="academics.html">Academics</a></li>
+          <li><a class="primary-nav__link" href="admissions.html">Admissions</a></li>
+          <li><a class="primary-nav__link" href="activities.html">Activities</a></li>
+          <li><a class="primary-nav__link" href="gallery.html">Gallery</a></li>
+          <li><a class="primary-nav__link" href="contact.html" aria-current="page">Contact Us</a></li>
+        </ul>
+        <a class="btn btn--primary btn--small header-cta" href="admissions.html#enquiry">Enquire about admission</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="page-hero" aria-labelledby="contact-title">
+      <div class="container">
+        <p class="page-hero__crumbs"><a href="index.html">Home</a> / Contact Us</p>
+        <h1 id="contact-title">Contact Us</h1>
+        <p class="page-hero__lead">We would love to hear from you. Use the details below, or send us a message through the form.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="details-title">
+      <div class="container split">
+        <div class="card">
+          <h2 id="details-title">Contact details</h2>
+          <ul class="info-list">
+            <li><span class="info-list__label">Address</span> <span class="info-list__value" data-contact="address"><span class="todo">[Address to be added]</span></span></li>
+            <li><span class="info-list__label">Phone</span> <span class="info-list__value" data-contact="phone"><span class="todo">[Phone number to be added]</span></span></li>
+            <li><span class="info-list__label">Email</span> <span class="info-list__value" data-contact="email"><span class="todo">[Email address to be added]</span></span></li>
+            <li><span class="info-list__label">Opening hours</span> <span class="info-list__value" data-contact="openingHours"><span class="todo">[Opening hours to be added]</span></span></li>
+          </ul>
+          <p class="form-note" style="margin-top: var(--space-5);">Items in highlighted brackets are placeholders until the school confirms its details.</p>
+        </div>
+
+        <form class="form-card " data-enquiry-form data-form-name="contact-message" novalidate>
+            <h2>Send us a message</h2>
+            <p class="form-note">Your message is only used to respond to you. Please do not send identity documents or sensitive student records through this form.</p>
+            <div class="form-grid" style="margin-top: var(--space-4);">
+              <div class="field">
+              <label for="contact-name">Your name <span class="field__required" aria-hidden="true">*</span></label>
+              <input id="contact-name" name="name" type="text" required autocomplete="name" data-rule="name" data-error-required="Please enter your name." maxlength="80" aria-describedby="contact-name-error">
+              <p class="field__error" id="contact-name-error"></p>
+            </div>
+              <div class="field">
+              <label for="contact-phone">Contact number <span class="field__required" aria-hidden="true">*</span></label>
+              <p class="field__hint" id="contact-phone-hint">10 digits. A +91 prefix is fine.</p>
+              <input id="contact-phone" name="phone" type="tel" required autocomplete="tel" data-rule="phone" data-error-required="Please enter a contact number." aria-describedby="contact-phone-hint contact-phone-error">
+              <p class="field__error" id="contact-phone-error"></p>
+            </div>
+              <div class="field">
+              <label for="contact-email">Email address <span class="field__hint">(optional)</span></label>
+              <p class="field__hint" id="contact-email-hint">Optional.</p>
+              <input id="contact-email" name="email" type="email" autocomplete="email" data-rule="email" aria-describedby="contact-email-hint contact-email-error">
+              <p class="field__error" id="contact-email-error"></p>
+            </div>
+              <div class="field field--full">
+              <label for="contact-topic">What is your message about? <span class="field__required" aria-hidden="true">*</span></label>
+              <select id="contact-topic" name="topic" required data-error-required="Please choose a topic." aria-describedby="contact-topic-error">
+                <option value="">Please choose</option>
+                <option value="General question">General question</option>
+                <option value="Admissions">Admissions</option>
+                <option value="Visiting the school">Visiting the school</option>
+                <option value="Other">Other</option>
+              </select>
+              <p class="field__error" id="contact-topic-error"></p>
+            </div>
+              <div class="field field--full">
+              <label for="contact-message">Your message <span class="field__required" aria-hidden="true">*</span></label>
+              <p class="field__hint" id="contact-message-hint">Up to 1000 characters.</p>
+              <textarea id="contact-message" name="message" rows="5" maxlength="1000" data-rule="message" required data-error-required="Please enter a message." aria-describedby="contact-message-hint contact-message-error"></textarea>
+              <p class="field__error" id="contact-message-error"></p>
+            </div>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn btn--primary">Send message</button>
+              <p class="form-note">Fields marked <span class="field__required" aria-hidden="true">*</span> are required.</p>
+            </div>
+            <div class="form-status" role="status" aria-live="polite"></div>
+          </form>
+      </div>
+    </section>
+
+    <section class="section section--tinted" aria-labelledby="directions-title">
+      <div class="container">
+        <div class="section__header">
+          <span class="eyebrow">Find us</span>
+          <h2 id="directions-title">Directions</h2>
+          <p class="section__intro">Directions and a map will be added once the school address is confirmed.</p>
+        </div>
+        <div class="directions-box">
+          <p><strong>Directions: pending.</strong> <span class="todo">[Address, landmark and transport information to be added]</span></p>
+          <p class="form-note">To keep this site fast and private, no third-party map is loaded automatically.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="contact-cta-title">
+      <div class="container">
+        <div class="cta-band">
+          <h2 id="contact-cta-title">Interested in admission?</h2>
+          <p>Send an admission enquiry and our team will share the next steps.</p>
+          <div class="btn-row">
+            <a class="btn btn--primary" href="admissions.html#enquiry">Enquire about admission</a>
+            <a class="btn btn--secondary" href="admissions.html#faq">Read admissions FAQs</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div>
+          <p class="site-footer__brand">
+            <img data-logo src="images/logoschool.PNG" alt="" width="56" height="56">
+            <span>Hello Kidz School</span>
+          </p>
+          <p>A caring school for preschool and primary students, from Preschool to Class 5.</p>
+        </div>
+
+        <nav aria-labelledby="footer-explore">
+          <h2 id="footer-explore">Explore</h2>
+          <ul class="site-footer__list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <h2>Contact</h2>
+          <ul class="site-footer__list">
+            <li><strong>Address:</strong> <span data-contact="address" class="todo">[Address to be added]</span></li>
+            <li><strong>Phone:</strong> <span data-contact="phone" class="todo">[Phone to be added]</span></li>
+            <li><strong>Email:</strong> <span data-contact="email" class="todo">[Email to be added]</span></li>
+            <li><strong>Hours:</strong> <span data-contact="openingHours" class="todo">[Opening hours to be added]</span></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Admissions</h2>
+          <p>Interested in joining us? Send an enquiry and we will guide you through the next steps.</p>
+          <p><a href="admissions.html#enquiry">Make an admission enquiry</a></p>
+        </div>
+      </div>
+
+      <div class="site-footer__bottom">
+        <p>&copy; <span id="current-year">2026</span> Hello Kidz School. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
